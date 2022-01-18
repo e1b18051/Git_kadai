@@ -38,6 +38,7 @@ $ java GameMain
 
 #### 4-2.課題2 Playerの手の決定とその表示
 　[変更するファイル]　GameMain.java, Player.java, Hand.java<br>
+　<br>
 　Playerは1,2,3のいずれかの数値を入力する．<br>
 　1,2,3以外の入力があった場合は実行例の通りにエラー文を表示し，再入力させる．<br>
 　1,2,3のいずれかの入力がされた場合は，それぞれ対応した手を表示する．<br>
@@ -47,15 +48,14 @@ $ java GameMain
 　PlayerクラスではdecidesPlayerHandメソッドを定義する<br>
 　引数なし．戻り値はint型．Playerの入力した数値(1,2,3のいずれか)を返す．<br>
 　Playerからの数値の入力に対するエラー文や再入力などの処理を行う．<br>
-　<br>
 　[getHandNameメソッド]<br>
 　HandクラスではgetHandNameメソッドを定義する<br>
 　引数はint型．PlayerクラスのdecidesPlayerHandメソッドの戻り値が代入される．<br>
 　戻り値はString型．Playerの入力した数値を対応する手に変更し，その値を返す．<br>
-　<br>
 　[GameMain.java]<br>
 　PlayerクラスのdecidesPlayerHandメソッド，HandクラスのgetHandNameメソッドを使って<br>
 　実行例のようにPlayerの手を表示する処理を追加する．<br>
+　<br>
 　[実行例]
 ```
 $ java GameMain
