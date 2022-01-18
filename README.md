@@ -101,8 +101,10 @@ $ java GameMain
 　[変更するファイル]　GameMain.java, VictoryOrDefeat.java<br>
 　[decidesComputerHandメソッド]<br>
 　 VictoryOrDefeatクラスではdecisionVictoryOrDefeatメソッドを定義する<br>
-　 引数はint型のcomputerHandとplayerHand．それぞれじゃんけんの手に対応する1,2,3のいずれかの数値が代入される．戻り値なし．<br>
-　 課題2,3でGameMain.javaに実装したPlayerおよびComputerの手を表示する処理はこのメソッド内で行うよう変更する．<br>
+　 引数はint型のcomputerHandとplayerHand．それぞれじゃんけんの手に対応する1,2,3のいずれかの<br>
+　 数値が代入される．戻り値なし．<br>
+　 課題2,3でGameMain.javaに実装したPlayerおよびComputerの手を表示する処理はこのメソッド内で<br>
+　 行うよう変更する．<br>
 　 computerHandとplayerHandの値を比較して勝敗判定を行い，それを表示する機能を実装する．<br>
 　[GameMain.java]<br>
 　 PlayerおよびComputerの手を表示はVictoryOrDefeatクラスに移動する．<br>
