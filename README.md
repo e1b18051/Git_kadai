@@ -1,8 +1,8 @@
 # Git_kadai
 ## 実験の手順（2人用）
 ### 事前準備1：実験用フォルダについて
-　事前準備としてhttps://drive.google.com/drive/u/0/folders/1DEkfqzE7f9zRV7bKkmUiXQs5Gmr8kK1P のzipフォルダを<br>
-　ダウンロードおよび解凍しておくこと．<br>
+　事前準備としてhttps://drive.google.com/drive/u/0/folders/1DEkfqzE7f9zRV7bKkmUiXQs5Gmr8kK1P のzipフォルダ<br>
+　をダウンロードおよび解凍しておくこと．<br>
 　各フォルダの詳細は以下の通りである．<br>
 　・AGDRec_132F.zip（画面録画用ソフト）<br>
 　・Git_bash.zip（ターミナル用ソフト）<br>
