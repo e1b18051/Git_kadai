@@ -32,8 +32,8 @@
 　[実行例]
 ```
 $ java GameMain
- 1:グー 2:チョキ 3:パー
- じゃんけん...
+　1:グー 2:チョキ 3:パー
+　じゃんけん...
 ```
 
 #### 4-2.課題2 Playerの手の決定とその表示
@@ -89,8 +89,8 @@ $ java GameMain
 　Randomメソッドを使い，1,2,3の数値をランダムに返す機能を実装する．<br>
 　<br>
 　[GameMain.java]<br>
-　課題2と同様にComputerクラスのdecidesComputerHandメソッド，HandクラスのgetHandNameメソッドを使って<br>
-　実行例のようにComputerの手を表示する処理を追加する．<br>
+　課題2と同様にComputerクラスのdecidesComputerHandメソッド，HandクラスのgetHandNameメソッドを<br>
+　使って実行例のようにComputerの手を表示する処理を追加する．<br>
 　[実行例]
 ```
 $ java GameMain
