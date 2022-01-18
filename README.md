@@ -10,7 +10,7 @@
 ### 事前準備2：個人アクセストークンの取得
 　ターミナル上でGitHubの操作を行うために必要な個人アクセストークンの取得を行う．<br>
 　GitHubのページの右上のプロフィール画像をクリックし，Settingsをクリックする．<br>
-　左のサイドバーから[Developer settings]→[Personal access tokens]に移動し，[Generate new token] をクリックする．<br>
+　サイドバーから[Developer settings]→[Personal access tokens]に移動し，[Generate new token] をクリックする．<br>
 　[設定]<br>
 　　Note：任意のトークン名<br>
 　　Expiration：任意の有効期限<br>
