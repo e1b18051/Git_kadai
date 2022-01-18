@@ -54,7 +54,6 @@ $ java GameMain
 　[GameMain.java]<br>
 　 PlayerクラスのdecidesPlayerHandメソッド，HandクラスのgetHandNameメソッドを使って<br>
 　 実行例のようにPlayerの手を表示する処理を追加する．<br>
-　<br>
 　[実行例]
 ```
 $ java GameMain
@@ -83,13 +82,12 @@ $ java GameMain
 #### 4-3.課題3 Computerの手の決定とその表示
 　[変更するファイル]　GameMain.java, Computer.java<br>
 　[decidesComputerHandメソッド]<br>
-　ComputerクラスではdecidesComputerHandメソッドを定義する<br>
-　引数なし．戻り値はint型．1,2,3のいずれかの数値を返す．<br>
-　Randomメソッドを使い，1,2,3の数値をランダムに返す機能を実装する．<br>
-　<br>
+　 ComputerクラスではdecidesComputerHandメソッドを定義する<br>
+　 引数なし．戻り値はint型．1,2,3のいずれかの数値を返す．<br>
+　 Randomメソッドを使い，1,2,3の数値をランダムに返す機能を実装する．<br>
 　[GameMain.java]<br>
-　課題2と同様にComputerクラスのdecidesComputerHandメソッド，HandクラスのgetHandNameメソッドを<br>
-　使って実行例のようにComputerの手を表示する処理を追加する．<br>
+　 課題2と同様にComputerクラスのdecidesComputerHandメソッド，HandクラスのgetHandNameメソッドを<br>
+　 使って実行例のようにComputerの手を表示する処理を追加する．<br>
 　[実行例]
 ```
 $ java GameMain
@@ -102,14 +100,13 @@ $ java GameMain
 #### 4-4.課題4 勝敗判定とその表示
 　[変更するファイル]　GameMain.java, VictoryOrDefeat.java<br>
 　[decidesComputerHandメソッド]<br>
-　VictoryOrDefeatクラスではdecisionVictoryOrDefeatメソッドを定義する<br>
-　引数はint型のcomputerHandとplayerHand．それぞれじゃんけんの手に対応する1,2,3のいずれかの数値が代入される．戻り値なし．<br>
-　課題2,3でGameMain.javaに実装したPlayerおよびComputerの手を表示する処理はこのメソッド内で行うよう変更する．<br>
-　computerHandとplayerHandの値を比較して勝敗判定を行い，それを表示する機能を実装する．<br>
-　<br>
+　 VictoryOrDefeatクラスではdecisionVictoryOrDefeatメソッドを定義する<br>
+　 引数はint型のcomputerHandとplayerHand．それぞれじゃんけんの手に対応する1,2,3のいずれかの数値が代入される．戻り値なし．<br>
+　 課題2,3でGameMain.javaに実装したPlayerおよびComputerの手を表示する処理はこのメソッド内で行うよう変更する．<br>
+　 computerHandとplayerHandの値を比較して勝敗判定を行い，それを表示する機能を実装する．<br>
 　[GameMain.java]<br>
-　PlayerおよびComputerの手を表示はVictoryOrDefeatクラスに移動する．<br>
-　VictoryOrDefeatクラスのdecisionVictoryOrDefeatメソッドを呼び出す．<br>
+　 PlayerおよびComputerの手を表示はVictoryOrDefeatクラスに移動する．<br>
+　 VictoryOrDefeatクラスのdecisionVictoryOrDefeatメソッドを呼び出す．<br>
 　[実行例]
 ```
 $ java GameMain
