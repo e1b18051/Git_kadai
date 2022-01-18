@@ -45,7 +45,7 @@ $ java GameMain
 　<br>
 　[decidesPlayerHandメソッド]<br>
 　PlayerクラスではdecidesPlayerHandメソッドを定義する<br>
-　引数なし．戻り値はint型．Playerの入力した数値(1~3のいずれか)を返す．<br>
+　引数なし．戻り値はint型．Playerの入力した数値(1,2,3のいずれか)を返す．<br>
 　Playerからの数値の入力に対するエラー文や再入力などの処理を行う．<br>
 　<br>
 　[getHandNameメソッド]<br>
@@ -85,8 +85,8 @@ $ java GameMain
 　[変更するファイル]　GameMain.java, Computer.java<br>
 　[decidesComputerHandメソッド]<br>
 　ComputerクラスではdecidesComputerHandメソッドを定義する<br>
-　引数なし．戻り値はint型．1~3のいずれかの数値を返す．<br>
-　Randomメソッドを使い，1~3の数値をランダムに返す機能を実装する．<br>
+　引数なし．戻り値はint型．1,2,3のいずれかの数値を返す．<br>
+　Randomメソッドを使い，1,2,3の数値をランダムに返す機能を実装する．<br>
 　<br>
 　[GameMain.java]<br>
 　課題2と同様にComputerクラスのdecidesComputerHandメソッド，HandクラスのgetHandNameメソッドを使って<br>
@@ -104,7 +104,7 @@ $ java GameMain
 　[変更するファイル]　GameMain.java, VictoryOrDefeat.java<br>
 　[decidesComputerHandメソッド]<br>
 　VictoryOrDefeatクラスではdecisionVictoryOrDefeatメソッドを定義する<br>
-　引数はint型のcomputerHandとplayerHand．それぞれじゃんけんの手に対応する1~3の数値が代入される．戻り値なし．<br>
+　引数はint型のcomputerHandとplayerHand．それぞれじゃんけんの手に対応する1,2,3のいずれかの数値が代入される．戻り値なし．<br>
 　課題2,3でGameMain.javaに実装したPlayerおよびComputerの手を表示する処理はこのメソッド内で行うよう変更する．<br>
 　computerHandとplayerHandの値を比較して勝敗判定を行い，それを表示する機能を実装する．<br>
 　<br>
