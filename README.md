@@ -1,4 +1,4 @@
-# Git_kadai
+# Git_kadai1
 ## 実験の手順（2人用）
 ### 事前準備1：実験用フォルダについて
 　事前準備としてhttps://drive.google.com/drive/u/0/folders/1DEkfqzE7f9zRV7bKkmUiXQs5Gmr8kK1P のzipフォルダ<br>
